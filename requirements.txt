@@ -1,0 +1,16 @@
+scikit-learn==1.5.2
+python-fasthtml==0.8.0
+matplotlib==3.9.2
+scipy==1.14.1
+numpy==2.1.2
+pandas==2.2.3
+pytest
+flake8
+ipython
+-e ./python-package
+# Compatible dependencies for the starter's FastHTML 0.8 API.
+fastcore==1.7.18
+fastlite==0.0.13
+starlette==0.41.3
+sqlite-minutils==4.0.3
+pyparsing==3.2.0
