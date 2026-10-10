@@ -13,12 +13,12 @@ Use Python 3.10–3.12. From this project's root directory:
 python -m venv env
 source env/bin/activate
 python -m pip install -r requirements.txt
-./start
+bash start
 ```
 
 Open http://localhost:5001. The starter FastHTML version requires the compatible
 Fastcore, Fastlite and Starlette versions pinned in requirements.txt.
-If another application uses port 5001, launch with `PORT=5002 ./start`.
+If another application uses port 5001, launch with `PORT=5002 bash start`.
 
 ## Dashboard
 
