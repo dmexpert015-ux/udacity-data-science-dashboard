@@ -1,0 +1,80 @@
+running sdist
+running egg_info
+writing employee_events.egg-info/PKG-INFO
+writing dependency_links to employee_events.egg-info/dependency_links.txt
+writing requirements to employee_events.egg-info/requires.txt
+writing top-level names to employee_events.egg-info/top_level.txt
+reading manifest file 'employee_events.egg-info/SOURCES.txt'
+writing manifest file 'employee_events.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating employee_events-0.0
+creating employee_events-0.0/employee_events
+creating employee_events-0.0/employee_events.egg-info
+copying files to employee_events-0.0...
+copying setup.py -> employee_events-0.0
+copying employee_events/__init__.py -> employee_events-0.0/employee_events
+copying employee_events/employee.py -> employee_events-0.0/employee_events
+copying employee_events/employee_events.db -> employee_events-0.0/employee_events
+copying employee_events/query_base.py -> employee_events-0.0/employee_events
+copying employee_events/requirements.txt -> employee_events-0.0/employee_events
+copying employee_events/sql_execution.py -> employee_events-0.0/employee_events
+copying employee_events/team.py -> employee_events-0.0/employee_events
+copying employee_events.egg-info/PKG-INFO -> employee_events-0.0/employee_events.egg-info
+copying employee_events.egg-info/SOURCES.txt -> employee_events-0.0/employee_events.egg-info
+copying employee_events.egg-info/dependency_links.txt -> employee_events-0.0/employee_events.egg-info
+copying employee_events.egg-info/requires.txt -> employee_events-0.0/employee_events.egg-info
+copying employee_events.egg-info/top_level.txt -> employee_events-0.0/employee_events.egg-info
+Writing employee_events-0.0/setup.cfg
+Creating tar archive
+removing 'employee_events-0.0' (and everything under it)
+running bdist_wheel
+running build
+running build_py
+copying employee_events/sql_execution.py -> build/lib/employee_events
+/workspace/scratch/ef71fb48aebc/dashboard_env/lib/python3.12/site-packages/setuptools/_distutils/cmd.py:90: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/employee_events
+copying build/lib/employee_events/query_base.py -> build/bdist.linux-x86_64/wheel/./employee_events
+copying build/lib/employee_events/__init__.py -> build/bdist.linux-x86_64/wheel/./employee_events
+copying build/lib/employee_events/team.py -> build/bdist.linux-x86_64/wheel/./employee_events
+copying build/lib/employee_events/employee_events.db -> build/bdist.linux-x86_64/wheel/./employee_events
+copying build/lib/employee_events/employee.py -> build/bdist.linux-x86_64/wheel/./employee_events
+copying build/lib/employee_events/sql_execution.py -> build/bdist.linux-x86_64/wheel/./employee_events
+copying build/lib/employee_events/requirements.txt -> build/bdist.linux-x86_64/wheel/./employee_events
+running install_egg_info
+Copying employee_events.egg-info to build/bdist.linux-x86_64/wheel/./employee_events-0.0-py3.12.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/employee_events-0.0.dist-info/WHEEL
+creating 'dist/employee_events-0.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'employee_events/__init__.py'
+adding 'employee_events/employee.py'
+adding 'employee_events/employee_events.db'
+adding 'employee_events/query_base.py'
+adding 'employee_events/requirements.txt'
+adding 'employee_events/sql_execution.py'
+adding 'employee_events/team.py'
+adding 'employee_events-0.0.dist-info/METADATA'
+adding 'employee_events-0.0.dist-info/WHEEL'
+adding 'employee_events-0.0.dist-info/top_level.txt'
+adding 'employee_events-0.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel

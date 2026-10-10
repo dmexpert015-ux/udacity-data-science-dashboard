@@ -1,0 +1,15 @@
+INFO:     Will watch for changes in these directories: ['/workspace/scratch/ef71fb48aebc/dashboard_project']
+INFO:     Uvicorn running on http://0.0.0.0:5025 (Press CTRL+C to quit)
+INFO:     Started reloader process [6] using WatchFiles
+Link: http://localhost:5025
+INFO:     Started server process [24]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:55120 - "GET /team/2 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24]
+INFO:     Stopping reloader process [6]
+
+Verified actual running server: GET /team/2 HTTP 200; 2 PNG charts.
